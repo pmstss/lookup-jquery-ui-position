@@ -1,0 +1,30 @@
+{
+  "name": "lookup-jquery-ui-position",
+  "version": "1.11.4",
+  "description": "customized version of jQuery UI plugin",
+  "main": "position.js",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-jsonlint": "^1.0.4",
+    "load-grunt-tasks": "^3.2.0",
+    "time-grunt": "^1.2.1"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmstss/lookup-jquery-ui-position.git"
+  },
+  "keywords": [
+    "jquery",
+    "ui",
+    "position"
+  ],
+  "author": "Slava Tyshkavets <pmstss@gmail.com> (http://github.com/pmstss)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmstss/lookup-jquery-ui-position/issues"
+  },
+  "homepage": "https://github.com/pmstss/lookup-jquery-ui-position#readme"
+}

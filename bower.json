@@ -1,0 +1,18 @@
+{
+  "name": "lookup-jquery-ui-position",
+  "version": "1.11.4",
+  "homepage": "https://github.com/pmstss/lookup-jquery-ui-position",
+  "description": "Customized version of jQuery UI position module",
+  "main": "position.js",
+  "keywords": [
+    "jquery",
+    "jquery ui",
+    "position"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "*.iml",
+    "**/.*",
+    "node_modules"
+  ]
+}
