@@ -1,6 +1,6 @@
 {
   "name": "lookup-jquery-ui-position",
-  "version": "1.11.4",
+  "version": "1.11.5",
   "description": "customized version of jQuery UI plugin",
   "main": "position.js",
   "devDependencies": {
@@ -21,7 +21,7 @@
     "ui",
     "position"
   ],
-  "author": "Slava Tyshkavets <pmstss@gmail.com> (http://github.com/pmstss)",
+  "author": "Viachaslau Tyshkavets <pmstss@gmail.com> (http://github.com/pmstss)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pmstss/lookup-jquery-ui-position/issues"

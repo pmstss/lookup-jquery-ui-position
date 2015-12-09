@@ -8,8 +8,9 @@
  *
  * http://api.jqueryui.com/position/
  *
- * Customized lookup project version: 
- * outerWidth/outerHeight are replaced with getBoundingClientRect() width/height to get scaled width/height
+ * Customized lookup project version (1.11.5):
+ * - outerWidth/outerHeight are replaced with getBoundingClientRect() width/height to get scaled width/height
+ * - possibility to provide dimension of target and skip its calculation (useful e.g. for Ranges)
  */
 (function( factory ) {
 	if ( typeof define === "function" && define.amd ) {
@@ -151,7 +152,7 @@ $.fn.position = function( options ) {
 		collision = ( options.collision || "flip" ).split( " " ),
 		offsets = {};
 
-	dimensions = getDimensions( target );
+	dimensions = options.dimensions || getDimensions( target );
 	if ( target[0].preventDefault ) {
 		// force left top to allow flipping
 		options.at = "left top";
